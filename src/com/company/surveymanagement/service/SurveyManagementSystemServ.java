@@ -1,4 +1,4 @@
-package com.igate.surveymanagement.service;
+package com.company.surveymanagement.service;
 
 import java.util.List;
 

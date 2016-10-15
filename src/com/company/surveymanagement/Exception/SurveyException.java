@@ -1,4 +1,4 @@
-package com.igate.surveymanagement.Exception;
+package com.company.surveymanagement.Exception;
 
 public class SurveyException extends Exception{
 	

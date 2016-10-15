@@ -1,0 +1,96 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>SMS-Login</title>
+<script language="javascript" type="text/javascript" src="success.js">
+
+</script>
+<link rel="stylesheet" href="login.css"/>
+</head>
+
+</head>
+
+<link rel="stylesheet" href="temp.css"/>
+<body>
+<MAP NAME = "map">
+<AREA SHAPE = "RECT" COORDS = "0,20,446,273" 
+             HREF = "home.html">
+</MAP>
+
+<div class="container">
+	
+	<!-- header -->
+	<div class="header">
+		<img src="logonew2.png" USEMAP = "#map" width= height=/>
+	</div>
+	
+	<!-- Menu Bar -->	
+	<div class="menubar" align="right">
+		<a id="links" href="home.html">Home</a><font color=white> | </font>
+		<a id="links" href="about.html">About</a><font color=white> | </font>
+		<a id="links" href="intructions.html">Instructions</a><font color=white> | </font>
+		<a id="links" href="LoginPageOfSms.html">Login</a>
+	</div>
+
+	<!-- LEFT MENU 	-->
+	<div class="leftmenu">
+<p class="menu_header">SMS-Login</p>
+	</div>
+
+	<div class="rightmenu">
+		<p class="menu_header" style="width:100%">Login as per Category</p>	
+<form name="form1" action="login.survey" method="post">
+
+<table cellpadding=10>
+<tr>
+     <td>Username:</td>
+     <td><input type="text"  name="userNameTxt"></td>
+      <td  id="userNameId"></td>
+</tr>
+
+<tr>
+     <td>Password:</td>
+     <td><input type="password"  name="passwordTxt"></td>
+    <td id ="passwordId"></td>
+</tr>
+<tr>
+     <td>Select Category:</td>
+     <td><select>
+		<option>Admin</option>
+		<option>Surveyor</option>
+		<option>Respondent</option>
+		</select>
+	</td>
+	
+    
+</tr>
+
+<tr>
+    <td></td>
+     <td><a href="SurveyerHome.jsp"><input class="logbutton" type="submit" name="loginButton" id="loginButtonId"  value="Login"    /></a>
+         <input class="logbutton" type="reset"  value="Reset"/></td>
+</tr>
+</table>
+<hr>
+<table cellpadding=5>
+<tr>
+<td>Forgot Password?</td>
+<td>&nbsp;&nbsp;&nbsp;<u><a href=#>Click Here</a></u></td>
+</tr>
+<tr>
+         <td>Want To Create Your Own Survey ?</td>
+         <td>&nbsp;&nbsp;<input class="logbutton" type="button" name="registerButton" value="Register" onclick="register()" ></td>
+         
+</tr>
+
+</table>
+</form>
+	</div>
+	
+
+</div>
+</body>
+</html>

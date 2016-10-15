@@ -1,0 +1,10 @@
+.logbutton
+{
+		background-image:url("buttonbg.png");
+		color:white;
+}
+
+input:HOVER
+{
+	background-color:lightyellow;
+}

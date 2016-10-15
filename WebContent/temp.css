@@ -1,0 +1,101 @@
+body
+{
+font-family:arial;
+font-size:18px;
+background-image: url("bg.png");
+
+}
+input:HOVER
+{
+	background-color:lightyellow;
+}
+.leftmenu 
+{
+float:left;	
+width:30%;
+}
+.leftmenu tr td 
+{
+border-bottom:1px dotted;
+}
+.rightmenu
+{
+float:left;
+width:70%;
+}
+
+.leftmenu tr td a
+{
+padding:10px;
+margin:0px;
+color:#333;	
+text-decoration:none;
+border-radius:10px;
+}
+.leftmenu tr td a:hover
+{
+background-image:url("hoverbtn.png");
+color:white;
+}
+.menu_header
+{
+font-family:Arial;
+margin:0px;
+margin-top:2px;
+margin-bottom:5px;
+text-indent:15px;
+width: 99%;
+font-size:22px;
+height: 30px;
+color: darkblue;
+       border-radius:15px;
+}
+
+#links
+{
+	color: white;
+	font-size:16px;
+	padding:5px;
+	text-decoration:none;
+}
+#links:hover
+{
+background-image: url("hoverbtn.png");
+border-radius:10px;
+}
+ #header
+ {
+ }
+.menubar
+{
+border-radius:15px;
+background-image:url("menubg.jpg");
+list-style: none;
+margin-top:10px;
+font-family:Century Gothic;
+padding:5px;
+}
+
+.welcomeMsg
+{
+font-size:20px;
+text-align:right;
+}
+.container
+{
+padding:20px;
+width:70%;
+margin: auto;
+}
+
+.header_menu
+{
+font-size:16px;
+list-style:none;
+float:right;
+}
+.header_menu li
+{
+margin-left:5px;
+float:left;	
+}

@@ -1,4 +1,4 @@
-package com.igate.surveymanagement.dbutil;
+package com.company.surveymanagement.dbutil;
 
 /**
  * 

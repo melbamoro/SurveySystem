@@ -1,4 +1,4 @@
-package com.igate.surveymanagement.controller;
+package com.company.surveymanagement.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;

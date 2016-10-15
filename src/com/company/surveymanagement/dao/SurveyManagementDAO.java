@@ -1,4 +1,4 @@
-package com.igate.surveymanagement.dao;
+package com.company.surveymanagement.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

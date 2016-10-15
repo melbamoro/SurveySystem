@@ -1,4 +1,4 @@
-package com.igate.surveymanagement.bean;
+package com.company.surveymanagement.bean;
 
 import java.util.Date;
 

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.igate.surveymanagement.bean;
+package com.company.surveymanagement.bean;
 
 /**
  * @author trgl1
